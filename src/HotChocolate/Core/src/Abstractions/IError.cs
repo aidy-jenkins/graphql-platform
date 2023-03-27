@@ -170,13 +170,13 @@ public interface IError
 
     /// <summary>
     /// Creates a new error that contains all properties of this error
-    /// but with and additional custom error property.
+    /// but with an additional custom error property.
     /// </summary>
     /// <param name="key">The custom error property name.</param>
     /// <param name="value">The value of the custom error property.</param>
     /// <returns>
     /// Returns a new error that contains all properties of this error
-    /// but with and additional custom error property.
+    /// but with an additional custom error property.
     /// </returns>
     /// <exception cref="ArgumentNullException">
     /// The <paramref name="key" /> is null or empty.
